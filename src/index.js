@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import NumberCounter from './components/step01/NumberCounter';
-import NumberCounter2 from './components/step01/NumberCounter2';
-import InputExam from './components/step02/InputExam';
-import CountEx from './components/step03/CountEx';
-import CheckEx from './components/step03/CheckEx';
-import TodoList from './components/step04/TodoList';
+import FormEx from './components/step07/FormEx';
+// import TempEx from './components/step06/TempEx';
+// import NumberCounter from './components/step01/NumberCounter';
+// import NumberCounter2 from './components/step01/NumberCounter2';
+// import InputExam from './components/step02/InputExam';
+// import CountEx from './components/step03/CountEx';
+// import CheckEx from './components/step03/CheckEx';
+// import TodoList from './components/step04/TodoList';
+// import ProfileEx from './components/step05/ProfileEx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +22,10 @@ root.render(
     {/* <InputExam /> */}
     {/* <CountEx /> */}
     {/* <CheckEx /> */}
-    <TodoList />
+    {/* <TodoList /> */}
+    {/* <ProfileEx /> */}
+    {/* <TempEx /> */}
+    <FormEx />
   </React.StrictMode>
 );
 
