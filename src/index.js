@@ -9,6 +9,9 @@ import EffectTest01 from './components/step08/EffectTest01';
 import EffectTest02 from './components/step08/EffectTest02';
 import EffectTest03 from './components/step08/EffectTest03';
 import EffectTest04 from './components/step08/EffectTest04';
+import MemoTest01 from './components/step09/MemoTest01';
+import MemoTest02 from './components/step09/MemoTest02';
+import MemoTest03 from './components/step09/MemoTest03';
 // import TempEx from './components/step06/TempEx';
 // import NumberCounter from './components/step01/NumberCounter';
 // import NumberCounter2 from './components/step01/NumberCounter2';
@@ -35,7 +38,10 @@ root.render(
     // <EffectTest01 />
     // <EffectTest02 />
     // <EffectTest03 />
-    <EffectTest04 />
+    // <EffectTest04 />
+    // <MemoTest01 />
+    // <MemoTest02 />
+    <MemoTest03 />
   // </React.StrictMode>
 );
 
