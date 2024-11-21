@@ -13,6 +13,8 @@ import MemoTest01 from './components/step09/MemoTest01';
 import MemoTest02 from './components/step09/MemoTest02';
 import MemoTest03 from './components/step09/MemoTest03';
 import MemoTest04 from './components/step09/MemoTest04';
+import CallBackTest01 from './components/step10/CallBackTest01';
+import CallBackTest02 from './components/step10/CallBackTest02';
 // import TempEx from './components/step06/TempEx';
 // import NumberCounter from './components/step01/NumberCounter';
 // import NumberCounter2 from './components/step01/NumberCounter2';
@@ -43,7 +45,9 @@ root.render(
     // <MemoTest01 />
     // <MemoTest02 />
     // <MemoTest03 />
-    <MemoTest04 />
+    // <MemoTest04 />
+    //<CallBackTest01 />
+    <CallBackTest02 />
   // </React.StrictMode>
 );
 
