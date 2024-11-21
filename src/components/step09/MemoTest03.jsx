@@ -1,6 +1,5 @@
 import React, { useMemo, useState } from 'react';
 
-// useMemo 사용
 const hardCalcu = (num) =>{
   console.log("hardCalcu : " + num)
   for (let i = 0; i < 999999999; i++) {}
@@ -16,6 +15,8 @@ function MemoTest03(props) {
   const [hardNumber, setHardNumber] = useState(1);
   const [easyNumber, setEasyNumber] = useState(1);
   //const hardSum = hardCalcu(hardNumber)
+
+  // useMemo 사용
   const hardSum = useMemo(() => {
     return hardCalcu(hardNumber);
   }, [hardNumber])
