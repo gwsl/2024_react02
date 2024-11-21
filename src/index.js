@@ -4,6 +4,11 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import FormEx from './components/step07/FormEx';
+import DollarEx from './components/step06/dollar/DollarEx';
+import EffectTest01 from './components/step08/EffectTest01';
+import EffectTest02 from './components/step08/EffectTest02';
+import EffectTest03 from './components/step08/EffectTest03';
+import EffectTest04 from './components/step08/EffectTest04';
 // import TempEx from './components/step06/TempEx';
 // import NumberCounter from './components/step01/NumberCounter';
 // import NumberCounter2 from './components/step01/NumberCounter2';
@@ -15,18 +20,23 @@ import FormEx from './components/step07/FormEx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    {/* <NumberCounter /> */}
-    {/* <NumberCounter2 /> */}
-    {/* <InputExam /> */}
-    {/* <CountEx /> */}
-    {/* <CheckEx /> */}
-    {/* <TodoList /> */}
-    {/* <ProfileEx /> */}
-    {/* <TempEx /> */}
-    <FormEx />
-  </React.StrictMode>
+  // <React.StrictMode>
+    // <App />
+    // <NumberCounter /> 
+    // <NumberCounter2 />
+    // <InputExam />
+    // <CountEx />
+    // <CheckEx />
+    // <TodoList />
+    // <ProfileEx />
+    // <TempEx />
+    // <FormEx />
+    // <DollarEx />
+    // <EffectTest01 />
+    // <EffectTest02 />
+    // <EffectTest03 />
+    <EffectTest04 />
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
