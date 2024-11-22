@@ -15,6 +15,14 @@ import MemoTest03 from './components/step09/MemoTest03';
 import MemoTest04 from './components/step09/MemoTest04';
 import CallBackTest01 from './components/step10/CallBackTest01';
 import CallBackTest02 from './components/step10/CallBackTest02';
+import RefTest01 from './components/step11/RefTest01';
+import RefTest02 from './components/step11/RefTest02';
+import RefTest03 from './components/step11/RefTest03';
+import RefTest04 from './components/step11/RefTest04';
+import RefTest05 from './components/step11/RefTest05';
+import UseIdTest from './components/step12/UseIdTest';
+import UseIdTest2 from './components/step12/UseIdTest2';
+import ContextTest from './components/step14/ContextTest';
 // import TempEx from './components/step06/TempEx';
 // import NumberCounter from './components/step01/NumberCounter';
 // import NumberCounter2 from './components/step01/NumberCounter2';
@@ -47,7 +55,16 @@ root.render(
     // <MemoTest03 />
     // <MemoTest04 />
     //<CallBackTest01 />
-    <CallBackTest02 />
+    // <CallBackTest02 />
+    // <RefTest01 />
+    // <RefTest02 />
+    // <RefTest03 />
+    // <RefTest04 />
+    // <RefTest05 />
+    // <UseIdTest />
+    // <UseIdTest2 />
+    // <ContextTest />
+    <ContextTest />
   // </React.StrictMode>
 );
 
