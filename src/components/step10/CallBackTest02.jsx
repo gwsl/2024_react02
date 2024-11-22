@@ -14,6 +14,7 @@ function CallBackTest02(props) {
   // 버튼을 누르면 someFunc : number : 0 나오다 이유는 useCallback 저장할 때 당시 mumber0이었다.
   const someFunction = useCallback( () =>{
     console.log(`someFunc : number : ${number}`);
+
     return;
   }, []);
 
