@@ -1,7 +1,9 @@
 import React from 'react';
 
 function Footer({isDark, setIsDark}) {
+  const toggleTheme = () => {
     setIsDark(!isDark)
+  }
   return (
     <footer
       className='footer'

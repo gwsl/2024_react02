@@ -22,7 +22,10 @@ import RefTest04 from './components/step11/RefTest04';
 import RefTest05 from './components/step11/RefTest05';
 import UseIdTest from './components/step12/UseIdTest';
 import UseIdTest2 from './components/step12/UseIdTest2';
-import ContextTest from './components/step14/ContextTest';
+import ContextTest from './components/step13/ContextTest';
+// import ContextTest from './components/step14/ContextTest';
+import ReducerTest01 from './components/step15/ReducerTest01';
+import ReducerTest02 from './components/step15/ReducerTest02';
 // import TempEx from './components/step06/TempEx';
 // import NumberCounter from './components/step01/NumberCounter';
 // import NumberCounter2 from './components/step01/NumberCounter2';
@@ -63,8 +66,9 @@ root.render(
     // <RefTest05 />
     // <UseIdTest />
     // <UseIdTest2 />
-    // <ContextTest />
     <ContextTest />
+    // <ReducerTest01 />
+    // <ReducerTest02 />
   // </React.StrictMode>
 );
 
